@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Object tracker</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Content Section</h2>
+            <p>This is object tracking application.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 YOLOv8 App</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
